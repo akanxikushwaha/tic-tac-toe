@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+body{
+    background-color: #26272C;
+}
+h1{
+    font-size: 50px;
+    padding-top: 15px;
+    color: #DCD0D0;
+}
+.choice{
+    height: 110px;
+    width: 110px;
+    background-color: #A288A6;
+    font-size: 80px;   
+}
+.choice:hover{
+    background-color: #BB9BB0;
+    
+}
+#outer{
+    height:338px;
+    width:338px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#messageBox{
+    margin-top: 10px;
+    line-height: 50px; 
+    height:50px;
+    width: 210px;
+    font-size: 17px;
+    background-color: #DCD0D0;
+}
+
+
+
