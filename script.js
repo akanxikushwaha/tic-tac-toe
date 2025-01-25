@@ -56,7 +56,9 @@ let play=()=>{
                         }
                     }
                 }
-                if(count==9){
+                if(count==9 &&
+                    messageBox.innerText!="player 1 wins! (play again)" &&
+                    messageBox.innerText!="player 2 wins! (play again)"){
                     messageBox.innerText="draw! (play again)";
                     return;
                 }
